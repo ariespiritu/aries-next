@@ -1,0 +1,31 @@
+{
+  "name": "aries-next",
+  "version": "1.0.0",
+  "description": "Web app created from Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build" : "next build",
+    "start" : "next start -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariespiritu/aries-next.git"
+  },
+  "author": "Aries Espiritu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariespiritu/aries-next/issues"
+  },
+  "homepage": "https://github.com/ariespiritu/aries-next#readme",
+  "dependencies": {
+    "cross-env": "^5.0.1",
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^2.4.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-markdown": "^2.5.0"
+  }
+}
